@@ -14,6 +14,7 @@ composer require --dev drupal/coder
 ./vendor/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer
 ./vendor/bin/phpcs --config-set default_standard Drupal
 ./vendor/bin/phpcs --standard=Drupal web/modules/custom
+composer require --dev slevomat/coding-standard
 ```
 
 ## 🧠 Set up PHPCS in Visual Studio Code
